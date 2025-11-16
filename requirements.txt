@@ -1,3 +1,6 @@
+django-tailwind[cookiecutter,honcho,reload]
+django-browser-reload
+
 annotated-types==0.7.0
 anyio==4.11.0
 arrow==1.4.0
