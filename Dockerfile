@@ -23,10 +23,10 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Install Tailwind dependencies, but DO NOT fail if theme isn't ready
-RUN python manage.py tailwind install || echo "⚠️ Tailwind install skipped"
+# RUN python manage.py tailwind install || echo "⚠️ Tailwind install skipped"
 
 # Expose Django dev port
 EXPOSE 8000
 
 # Run Tailwind watcher + Django server together
-CMD ["sh", "-c", "python manage.py tailwind start & python manage.py runserver 0.0.0.0:8000"]
+CMD ["sh", "-c", "python manage.py runserver 0.0.0.0:8000"]
