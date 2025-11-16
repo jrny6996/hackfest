@@ -1,0 +1,42 @@
+<div>
+    <h1>Submitted:
+
+    </h1>
+    <form hx-trigger="submit" hx-post="/jonny/customer-refresh/" hx-target="#placeholder">
+        {% csrf_token %}
+
+        <div>
+            <input name="selected-id" value="1005061234" readonly>
+        </div>
+
+        <div class="btn btn-secondary" onclick="startConnect()">Open Data Connect</div>
+        <input type="submit" value="Check" class="btn ">
+    </form>
+    <hr>
+    <div id="placeholder"></div>
+</div>
+<script type="module">
+    import { Connect } from 'https://cdn.openbanking.mastercard.com/js/connect-web-sdk@2.2.0/mastercard-connect-esm.min.js';
+
+    const eventHandlers = {
+        onDone: (event) => console.log('Connection successful!', event),
+        onCancel: (event) => console.log('User cancelled', event),
+        onError: (event) => console.log('Error occurred', event)
+    };
+
+    function startConnect() {
+        console.log('connecting...')
+        Connect.launch(
+            "{{ url | safe}}",        // <-- ONLY the URL here
+            eventHandlers,      // <-- 2nd argument
+            { popup: true }     // <-- 3rd argument
+
+
+        ),
+            redirectUrl = "https://localhost:8000"
+
+    }
+    window.startConnect = startConnect;
+
+    startConnect()
+</script>

@@ -1,0 +1,456 @@
+{
+  "found": 64,
+  "displaying": 25,
+  "moreAvailable": "true",
+  "fromDate": "1349701444",
+  "toDate": "1665234244",
+  "sort": "desc",
+  "transactions": [
+    {
+      "id": 13212489147,
+      "amount": 1208.15,
+      "accountId": 6020605022,
+      "customerId": 6012188750,
+      "status": "active",
+      "description": "REMOTE ONLINE DEPOSIT #",
+      "memo": "1",
+      "postedDate": 1665144000,
+      "transactionDate": 1665144000,
+      "createdDate": 1665248277,
+      "categorization": {
+        "normalizedPayeeName": "Remote Online",
+        "category": "Income",
+        "bestRepresentation": "REMOTE ONLINE DEPOSIT",
+        "country": "USA"
+      }
+    },
+    {
+      "id": 13212489182,
+      "amount": 1216.2,
+      "accountId": 6020605022,
+      "customerId": 6012188750,
+      "status": "active",
+      "description": "Mad Science Research PR PAYMENT",
+      "memo": "PPD ID: 1234567899",
+      "postedDate": 1664884800,
+      "transactionDate": 1664884800,
+      "createdDate": 1665248277,
+      "categorization": {
+        "normalizedPayeeName": "Mad Science Research",
+        "category": "Paycheck",
+        "bestRepresentation": "MAD SCIENCE RESEARCH PR PAYMENT PPD ID",
+        "country": "USA"
+      }
+    },
+    {
+      "id": 13212489179,
+      "amount": 1500.0,
+      "accountId": 6020605022,
+      "customerId": 6012188750,
+      "status": "active",
+      "description": "JABERWOCKY CREDIT N.A. JABERWOCKY",
+      "memo": "PPD ID: 1234567893",
+      "postedDate": 1664712000,
+      "transactionDate": 1664712000,
+      "createdDate": 1665248277,
+      "categorization": {
+        "normalizedPayeeName": "jaberwocky credit jaberwocky ppd id",
+        "category": "Income",
+        "bestRepresentation": "JABERWOCKY CREDIT JABERWOCKY PPD ID",
+        "country": "USA"
+      }
+    },
+    {
+      "id": 13212489172,
+      "amount": 1834.49,
+      "accountId": 6020605022,
+      "customerId": 6012188750,
+      "status": "active",
+      "description": "ROCKET SURGERY PAYROLL",
+      "memo": "PPD ID: 1234567892",
+      "postedDate": 1664625600,
+      "transactionDate": 1664625600,
+      "createdDate": 1665248277,
+      "categorization": {
+        "normalizedPayeeName": "Rocket Surgery",
+        "category": "Paycheck",
+        "bestRepresentation": "ROCKET SURGERY PAYROLL PPD ID",
+        "country": "USA"
+      }
+    },
+    {
+      "id": 13212489185,
+      "amount": 1197.33,
+      "accountId": 6020605022,
+      "customerId": 6012188750,
+      "status": "active",
+      "description": "Mad Science Research PR PAYMENT",
+      "memo": "PPD ID: 1234567899",
+      "postedDate": 1663588800,
+      "transactionDate": 1663588800,
+      "createdDate": 1665248277,
+      "categorization": {
+        "normalizedPayeeName": "Mad Science Research",
+        "category": "Paycheck",
+        "bestRepresentation": "MAD SCIENCE RESEARCH PR PAYMENT PPD ID",
+        "country": "USA"
+      }
+    },
+    {
+      "id": 13212489150,
+      "amount": 0.03,
+      "accountId": 6020605022,
+      "customerId": 6012188750,
+      "status": "active",
+      "description": "INTEREST PAYMENT",
+      "postedDate": 1663502400,
+      "transactionDate": 1663502400,
+      "createdDate": 1665248277,
+      "categorization": {
+        "normalizedPayeeName": "interest payment",
+        "category": "Interest Income",
+        "bestRepresentation": "INTEREST PAYMENT",
+        "country": "USA"
+      }
+    },
+    {
+      "id": 13212489145,
+      "amount": 50.0,
+      "accountId": 6020605022,
+      "customerId": 6012188750,
+      "status": "active",
+      "description": "Credit Return: Online Payment 49",
+      "memo": "12345679 To ABC Roofers",
+      "postedDate": 1663329600,
+      "transactionDate": 1663329600,
+      "createdDate": 1665248277,
+      "categorization": {
+        "normalizedPayeeName": "Online",
+        "category": "Credit Card Payment",
+        "bestRepresentation": "CREDIT RETURN ONLINE PAYMENT TO ABC ROOFERS",
+        "country": "USA"
+      }
+    },
+    {
+      "id": 13212489158,
+      "amount": 1834.49,
+      "accountId": 6020605022,
+      "customerId": 6012188750,
+      "status": "active",
+      "description": "ROCKET SURGERY PAYROLL",
+      "memo": "PPD ID: 1234567892",
+      "postedDate": 1663243200,
+      "transactionDate": 1663243200,
+      "createdDate": 1665248277,
+      "categorization": {
+        "normalizedPayeeName": "Rocket Surgery",
+        "category": "Paycheck",
+        "bestRepresentation": "ROCKET SURGERY PAYROLL PPD ID",
+        "country": "USA"
+      }
+    },
+    {
+      "id": 13212489131,
+      "amount": 1888.58,
+      "accountId": 6020605022,
+      "customerId": 6012188750,
+      "status": "active",
+      "description": "Mad Science Research PR PAYMENT",
+      "memo": "PPD ID: 1234567899",
+      "postedDate": 1662379200,
+      "transactionDate": 1662379200,
+      "createdDate": 1665248277,
+      "categorization": {
+        "normalizedPayeeName": "Mad Science Research",
+        "category": "Paycheck",
+        "bestRepresentation": "MAD SCIENCE RESEARCH PR PAYMENT PPD ID",
+        "country": "USA"
+      }
+    },
+    {
+      "id": 13212490135,
+      "amount": 620.0,
+      "accountId": 6020605021,
+      "customerId": 6012188750,
+      "status": "active",
+      "description": "Withdrawal",
+      "postedDate": 1662120000,
+      "transactionDate": 1662120000,
+      "createdDate": 1665248277,
+      "categorization": {
+        "normalizedPayeeName": "withdrawal",
+        "category": "Uncategorized",
+        "bestRepresentation": "WITHDRAWAL",
+        "country": "USA"
+      }
+    },
+    {
+      "id": 13212489169,
+      "amount": 4942.25,
+      "accountId": 6020605022,
+      "customerId": 6012188750,
+      "status": "active",
+      "description": "ROCKET SURGERY PAYROLL",
+      "memo": "PPD ID: 1234567892",
+      "postedDate": 1662033600,
+      "transactionDate": 1662033600,
+      "createdDate": 1665248277,
+      "categorization": {
+        "normalizedPayeeName": "Rocket Surgery",
+        "category": "Paycheck",
+        "bestRepresentation": "ROCKET SURGERY PAYROLL PPD ID",
+        "country": "USA"
+      }
+    },
+    {
+      "id": 13212489137,
+      "amount": 141.2,
+      "accountId": 6020605022,
+      "customerId": 6012188750,
+      "status": "active",
+      "description": "Cash Redemption",
+      "postedDate": 1661774400,
+      "transactionDate": 1661774400,
+      "createdDate": 1665248277,
+      "categorization": {
+        "normalizedPayeeName": "Redemption",
+        "category": "Credit Card Payment",
+        "bestRepresentation": "CASH REDEMPTION",
+        "country": "USA"
+      }
+    },
+    {
+      "id": 13212489146,
+      "amount": 5000.0,
+      "accountId": 6020605022,
+      "customerId": 6012188750,
+      "status": "active",
+      "description": "HEALTH CARE ABC CLAIM",
+      "memo": "PPD ID: 1234567891",
+      "postedDate": 1661688000,
+      "transactionDate": 1661688000,
+      "createdDate": 1665248277,
+      "categorization": {
+        "normalizedPayeeName": "Health Care Abc",
+        "category": "Health & Fitness",
+        "bestRepresentation": "HEALTH CARE ABC CLAIM PPD ID",
+        "country": "USA"
+      }
+    },
+    {
+      "id": 13212489149,
+      "amount": 400.0,
+      "accountId": 6020605022,
+      "customerId": 6012188750,
+      "status": "active",
+      "description": "Credit Return: Online Payment 50",
+      "memo": "12345670 To Mary Greatfriend",
+      "postedDate": 1661428800,
+      "transactionDate": 1661428800,
+      "createdDate": 1665248277,
+      "categorization": {
+        "normalizedPayeeName": "Online",
+        "category": "Credit Card Payment",
+        "bestRepresentation": "CREDIT RETURN ONLINE PAYMENT TO MARY GREATFRIEND",
+        "country": "USA"
+      }
+    },
+    {
+      "id": 13212489144,
+      "amount": 1198.26,
+      "accountId": 6020605022,
+      "customerId": 6012188750,
+      "status": "active",
+      "description": "Mad Science Research PR PAYMENT",
+      "memo": "PPD ID: 1234567899",
+      "postedDate": 1661169600,
+      "transactionDate": 1661169600,
+      "createdDate": 1665248277,
+      "categorization": {
+        "normalizedPayeeName": "Mad Science Research",
+        "category": "Paycheck",
+        "bestRepresentation": "MAD SCIENCE RESEARCH PR PAYMENT PPD ID",
+        "country": "USA"
+      }
+    },
+    {
+      "id": 13212489164,
+      "amount": 0.04,
+      "accountId": 6020605022,
+      "customerId": 6012188750,
+      "status": "active",
+      "description": "INTEREST PAYMENT",
+      "postedDate": 1661083200,
+      "transactionDate": 1661083200,
+      "createdDate": 1665248277,
+      "categorization": {
+        "normalizedPayeeName": "interest payment",
+        "category": "Interest Income",
+        "bestRepresentation": "INTEREST PAYMENT",
+        "country": "USA"
+      }
+    },
+    {
+      "id": 13212489177,
+      "amount": 1901.33,
+      "accountId": 6020605022,
+      "customerId": 6012188750,
+      "status": "active",
+      "description": "ROCKET SURGERY PAYROLL",
+      "memo": "PPD ID: 1234567892",
+      "postedDate": 1660564800,
+      "transactionDate": 1660564800,
+      "createdDate": 1665248277,
+      "categorization": {
+        "normalizedPayeeName": "Rocket Surgery",
+        "category": "Paycheck",
+        "bestRepresentation": "ROCKET SURGERY PAYROLL PPD ID",
+        "country": "USA"
+      }
+    },
+    {
+      "id": 13212489165,
+      "amount": 300.0,
+      "accountId": 6020605022,
+      "customerId": 6012188750,
+      "status": "active",
+      "description": "REMOTE ONLINE DEPOSIT #",
+      "memo": "1",
+      "postedDate": 1660564800,
+      "transactionDate": 1660564800,
+      "createdDate": 1665248277,
+      "categorization": {
+        "normalizedPayeeName": "Remote Online",
+        "category": "Income",
+        "bestRepresentation": "REMOTE ONLINE DEPOSIT",
+        "country": "USA"
+      }
+    },
+    {
+      "id": 13212489138,
+      "amount": 30.0,
+      "accountId": 6020605022,
+      "customerId": 6012188750,
+      "status": "active",
+      "description": "REMOTE ONLINE DEPOSIT #",
+      "memo": "1",
+      "postedDate": 1660478400,
+      "transactionDate": 1660478400,
+      "createdDate": 1665248277,
+      "categorization": {
+        "normalizedPayeeName": "Remote Online",
+        "category": "Income",
+        "bestRepresentation": "REMOTE ONLINE DEPOSIT",
+        "country": "USA"
+      }
+    },
+    {
+      "id": 13212489171,
+      "amount": 13.74,
+      "accountId": 6020605022,
+      "customerId": 6012188750,
+      "status": "active",
+      "description": "BIGBOX DEBIT CRD ACH TRAN 0003",
+      "memo": "12345678901 POS ID: 1234567896",
+      "postedDate": 1660219200,
+      "transactionDate": 1660219200,
+      "createdDate": 1665248277,
+      "categorization": {
+        "normalizedPayeeName": "Crd Ach",
+        "category": "Shopping",
+        "bestRepresentation": "BIGBOX DEBIT CRD ACH TRAN POS ID",
+        "country": "USA"
+      }
+    },
+    {
+      "id": 13212489161,
+      "amount": 1140.11,
+      "accountId": 6020605022,
+      "customerId": 6012188750,
+      "status": "active",
+      "description": "Mad Science Research PR PAYMENT",
+      "memo": "PPD ID: 1234567899",
+      "postedDate": 1659960000,
+      "transactionDate": 1659960000,
+      "createdDate": 1665248277,
+      "categorization": {
+        "normalizedPayeeName": "Mad Science Research",
+        "category": "Paycheck",
+        "bestRepresentation": "MAD SCIENCE RESEARCH PR PAYMENT PPD ID",
+        "country": "USA"
+      }
+    },
+    {
+      "id": 13212489148,
+      "amount": 1744.6,
+      "accountId": 6020605022,
+      "customerId": 6012188750,
+      "status": "active",
+      "description": "ROCKET SURGERY PAYROLL",
+      "memo": "PPD ID: 1234567892",
+      "postedDate": 1659355200,
+      "transactionDate": 1659355200,
+      "createdDate": 1665248277,
+      "categorization": {
+        "normalizedPayeeName": "Rocket Surgery",
+        "category": "Paycheck",
+        "bestRepresentation": "ROCKET SURGERY PAYROLL PPD ID",
+        "country": "USA"
+      }
+    },
+    {
+      "id": 13212489187,
+      "amount": 300.0,
+      "accountId": 6020605022,
+      "customerId": 6012188750,
+      "status": "active",
+      "description": "REMOTE ONLINE DEPOSIT #",
+      "memo": "1",
+      "postedDate": 1659009600,
+      "transactionDate": 1659009600,
+      "createdDate": 1665248277,
+      "categorization": {
+        "normalizedPayeeName": "Remote Online",
+        "category": "Income",
+        "bestRepresentation": "REMOTE ONLINE DEPOSIT",
+        "country": "USA"
+      }
+    },
+    {
+      "id": 13212489160,
+      "amount": 150.0,
+      "accountId": 6020605022,
+      "customerId": 6012188750,
+      "status": "active",
+      "description": "REMOTE ONLINE DEPOSIT #",
+      "memo": "1",
+      "postedDate": 1659009600,
+      "transactionDate": 1659009600,
+      "createdDate": 1665248277,
+      "categorization": {
+        "normalizedPayeeName": "Remote Online",
+        "category": "Income",
+        "bestRepresentation": "REMOTE ONLINE DEPOSIT",
+        "country": "USA"
+      }
+    },
+    {
+      "id": 13212489156,
+      "amount": 140.0,
+      "accountId": 6020605022,
+      "customerId": 6012188750,
+      "status": "active",
+      "description": "REMOTE ONLINE DEPOSIT #",
+      "memo": "1",
+      "postedDate": 1659009600,
+      "transactionDate": 1659009600,
+      "createdDate": 1665248277,
+      "categorization": {
+        "normalizedPayeeName": "Remote Online",
+        "category": "Income",
+        "bestRepresentation": "REMOTE ONLINE DEPOSIT",
+        "country": "USA"
+      }
+    }
+  ]
+}

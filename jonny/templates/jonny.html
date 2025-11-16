@@ -1,5 +1,39 @@
-{% extends './_base.html' %}
-{% block 'content' %}
-<h1>Hello Jonny</h1>
+<!-- {% extends './_base.html' %}
+{% block 'content' %} -->
 
-{% endblock %}
+<div>
+    <h1 class="text-2xl text-center py-2">AI Spend Summary </h1>
+    <form hx-post="/jonny/ai-summary/" hx-swap="this" hx-trigger="submit"
+        class=" card card-body grid grid-cols-2 bg-primary   ">
+        {% csrf_token %}
+
+        <input type="submit" class="btn  mt-2" value="Run AI Inference">
+        <div>
+            <h2 class="text-xl mb-2"> Summary</h2>
+
+            <div id="placeholder-inference">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum modi similique reprehenderit vero hic
+                voluptate repellat at error accusamus temporibus aspernatur ex maxime est enim libero, voluptatum
+                quaerat.
+                Consequuntur, est!
+            </div>
+        </div>
+    </form>
+</div>
+<div class="grid grid-cols-2">
+    <div class="p-6 ">
+
+        <h1 class="text-2xl text-center py-2">Connect Account</h1>
+
+        <form hx-post="/jonny/url-generate/" hx-swap="this" hx-trigger="submit" class=" card card-body bg-base-200  ">
+            {% csrf_token %}
+
+            <input type="number" placeholder="1" class="input w-full" name="id"><input type="submit"
+                class="btn  btn-primary  mt-2" value="Submit">
+        </form>
+    </div>
+
+
+    {%include 'timed_bank_data.html'%}
+</div>
+<!-- {% endblock %} -->

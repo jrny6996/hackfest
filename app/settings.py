@@ -37,12 +37,20 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+        "tailwind",
+    'theme',
     'andrew',
     'dante',
     'jonny',
     'zach',
     'shared',
 ]
+TAILWIND_APP_NAME = "theme"
+
+if DEBUG:
+    # Add django_browser_reload only in DEBUG mode
+    INSTALLED_APPS += ["django_browser_reload"]
+   
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
@@ -94,6 +102,11 @@ DATABASES = {
     }
 }
 
+if DEBUG:
+    # Add django_browser_reload middleware only in DEBUG mode
+    MIDDLEWARE += [
+        "django_browser_reload.middleware.BrowserReloadMiddleware",
+    ]
 
 # Password validation
 # https://docs.djangoproject.com/en/5.2/ref/settings/#auth-password-validators

@@ -1,0 +1,72 @@
+<div class="space-y-4 mt-8">
+    {% for t in transactions %}
+    <div class="bg-zinc-900 border border-zinc-800 rounded-xl p-5 shadow-sm hover:shadow-md transition">
+
+        <!-- Top Row -->
+        <div class="flex items-start justify-between">
+            <div>
+                <div class="text-lg font-semibold text-white">
+                    {{ t.categorization.bestRepresentation }}
+                </div>
+                <div class="text-zinc-400 text-sm">
+                    {{ t.categorization.normalizedPayeeName }}
+                </div>
+            </div>
+
+            <div class="text-lg font-semibold text-white">
+                ${{ t.amount }}
+            </div>
+        </div>
+
+        <div class="border-t border-zinc-800 my-4"></div>
+
+        <!-- Metadata -->
+        <div class="grid grid-cols-2 gap-4">
+
+            <div>
+                <div class="text-zinc-500 text-xs uppercase tracking-wide">Status</div>
+                <div class="text-zinc-200">{{ t.status }}</div>
+            </div>
+
+            <div>
+                <div class="text-zinc-500 text-xs uppercase tracking-wide">Category</div>
+                <div class="text-zinc-200">{{ t.categorization.category }}</div>
+            </div>
+
+            <div>
+                <div class="text-zinc-500 text-xs uppercase tracking-wide">Transaction Date</div>
+                <div class="text-zinc-200">{{ t.transactionDate }}</div>
+            </div>
+
+            <div>
+                <div class="text-zinc-500 text-xs uppercase tracking-wide">Posted Date</div>
+                <div class="text-zinc-200">{{ t.postedDate }}</div>
+            </div>
+
+        </div>
+
+        {% if t.description %}
+        <div class="mt-4">
+            <div class="text-zinc-500 text-xs uppercase tracking-wide">Description</div>
+            <div class="text-zinc-300">{{ t.description }}</div>
+        </div>
+        {% endif %}
+
+        <!-- IDs Collapsible -->
+        <details class="mt-4 group">
+            <summary class="cursor-pointer text-zinc-500 text-sm group-open:text-zinc-300">
+                More details
+            </summary>
+
+            <div class="mt-2 text-zinc-400 text-sm space-y-1 pl-1">
+                <div><span class="text-zinc-500">ID:</span> {{ t.id }}</div>
+                <div><span class="text-zinc-500">Account ID:</span> {{ t.accountId }}</div>
+                <div><span class="text-zinc-500">Customer ID:</span> {{ t.customerId }}</div>
+                <div><span class="text-zinc-500">Memo:</span> {{ t.memo }}</div>
+                <div><span class="text-zinc-500">Created:</span> {{ t.createdDate }}</div>
+            </div>
+        </details>
+
+    </div>
+    {% endfor %}
+</div>
