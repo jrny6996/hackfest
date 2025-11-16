@@ -1,35 +1,28 @@
-# Python base image
 FROM python:3.12-slim
 
-# Node.js + npm for Tailwind
-# (Debian-based commands work on python:slim images)
+# Install system deps + Node.js (required for tailwind)
 RUN apt-get update && apt-get install -y curl gcc build-essential \
     && curl -fsSL https://deb.nodesource.com/setup_20.x | bash - \
     && apt-get install -y nodejs \
-    && npm --version \
-    && node --version \
     && apt-get clean
 
-# Create working directory
+# Workdir
 WORKDIR /app
 
-# Copy only requirements first for better caching
+# Copy requirements early to leverage Docker cache
 COPY requirements.txt .
 
-# Install Python dependencies, including:
-# django-tailwind[cookiecutter,honcho,reload]
+# Install Python deps (including django-tailwind)
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy project files
+# Copy full project
 COPY . .
 
-# Expose Django dev server port
-EXPOSE 8000
-
-# Install Tailwind dependencies (node_modules)
-# NOTE: This must run after your project is copied,
-# and AFTER `tailwind init` has created the theme app.
+# Install Tailwind CSS dependencies (must run after theme/ exists)
 RUN python manage.py tailwind install || true
 
-# Default command — run Tailwind + Django together
+# Expose Django port
+EXPOSE 8000
+
+# Run tailwind + django dev servers
 CMD ["python", "manage.py", "tailwind", "dev"]
