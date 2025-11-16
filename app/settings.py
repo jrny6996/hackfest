@@ -88,6 +88,8 @@ STATIC_URL = "/static/"
 
 STATICFILES_DIRS = [
     BASE_DIR / "static",  # ← global static folder
+    BASE_DIR / "theme" / "static"  # Tailwind CSS output
+
 ]
 
 STATIC_ROOT = BASE_DIR / "staticfiles" 
